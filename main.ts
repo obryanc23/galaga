@@ -27,4 +27,5 @@ let mySprite: Sprite = null
 backgrounndColor()
 game.onUpdateInterval(randint(150, 250), function () {
     backgroundStars()
+    game.over(false)
 })
