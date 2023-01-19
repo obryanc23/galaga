@@ -25,6 +25,7 @@ function backgrounndColor () {
 }
 let mySprite: Sprite = null
 backgrounndColor()
+music.baDing.play()
 game.onUpdateInterval(randint(150, 250), function () {
     backgroundStars()
     game.over(false)
